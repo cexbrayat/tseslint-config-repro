@@ -1,0 +1,21 @@
+{
+  "name": "tseslint-config-repro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "tsc-app": "tsc -p tsconfig.app.json",
+    "tsc-test": "tsc -p tsconfig.test.json",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.1.4",
+  "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.3.0",
+    "typescript": "5.4.5",
+    "typescript-eslint": "8.0.0-alpha.24"
+  }
+}

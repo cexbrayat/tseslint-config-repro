@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["./other.d.ts"]
+  },
+  "files": ["src/app.ts"]
+}
